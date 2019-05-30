@@ -9,8 +9,10 @@
 import win32com.client
 
 #建立数据库连接
-conn=win32com.client.Dispatch(r"ADODB.Connection")
-DSN='PROVIDER=Microsoft.Jet.OLEDB.4.0;DATA SOURCE =%s'%(mdb_file)
+conn=win32com.client.Dispatch(r".Connection")
+#DSN='PROVIDER=Microsoft.Jet.OLEDB.4.0;DATA SOURCE =%s'%(mdb_file)  #对于mdb的文件就要用.Jet。
+#对于accdb文件就要用.ACEAC  Microsoft.Jet.OLEDB.4.0 is not supported for 64-bit OS
+DSN='Provider=Microsoft.ACE.OLEDB.12.0;Data Source=//cngz-s-fp01\Prodatabase$\IT_Report_Test\Serial.accdb;'
 conn.Open(DSN)
 
 #打开一个记录集
