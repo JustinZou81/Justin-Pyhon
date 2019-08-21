@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>     <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
+<!--[if IE 7]>        <html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]>        <html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"><!--<![endif]-->
+	<head>
+		<title>ZHIHUI.COM UNDER CONSTRUCTION</title>		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+		<meta property="og:site_name" content="zhihui.com">
+		<meta property="og:type" content="article">
+		<meta property="og:title" content="ZHIHUI.COM UNDER CONSTRUCTION">
+		<meta property="og:url" content="https://zhihui.com/">
+		<meta property="og:description" content="zhihui.com domain is under construction. 此网站建设中。">
+		<meta name="description" content="zhihui.com domain is under construction. 此网站建设中。">
+		<link rel="stylesheet" href="HPDFS/css/normalize.min.css" media="all" />		<link rel="stylesheet" href="/HPDFS/css/dfs_style.css" media="all" />  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" media="all" />		<link href="/node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+		
+		<!--[if IE 8 ]>
+		<script type="text/javascript" src="HPDFS/javascript/selectivizr-min.js"></script>
+		<![endif]-->
+
+		<!--[if gte IE 9]>
+			<style type="text/css">body,h1,a,.result,input{filter:none}</style>		<![endif]-->
+	</head>
+	<style>
+	
+		a
+{
+   text-decoration:none;
+}
+
+a.underlined
+{
+   text-decoration:underline;
+}
+
+/* FAQ COLLAPSE/EXPAND STYLES */
+* {
+  box-sizing: border-box;
+}
+.faqanswer {
+	display: none;
+	width: 100%;
+	background: #e5e5e5;
+	padding: 12px 20px 0 30px;	
+}
+
+.faqanswer p {
+	font-size: 14px;
+	line-height: 17px;	
+}
+
+
+a.active {
+	font-weight: bold;
+}
+
+.togglefaq {
+	text-decoration: none;
+	color: #333;
+	font-size: 14px;
+	padding: 10px 30px;
+	line-height: 20px;
+	display: block;
+	border: 0px solid #d0d0d0;
+	width: 100%;
+	margin-bottom: -1px;
+}
+.fa-plus {
+	color: #5ec4cd;
+	margin-right: 10px;
+	font-size: 20px;
+	float:left;
+}
+
+.fa-minus {
+	color: #5ec4cd;
+	margin-right: 10px;
+	font-size: 20px;
+	float:left;
+}
+p {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.sliding-text-container {
+            width: 100%;
+            text-transform: uppercase;
+            position: relative;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            /*      overflow      */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: clip;
+        }
+
+        .big-text {
+            display: inline-block;
+            font-size: 100px;
+            color: #dfeedf;
+            z-index: 0;
+            font-weight: 900;
+            animation: marquee 10s linear infinite;
+        }
+                
+        @keyframes marquee {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+   
+        .small-text {
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: 15px;
+            color: #C0C0C0;
+            font-weight: bold;
+            /*      centered      */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+
+### news
+a, a:hover{text-decoration: none;}
+i{font-style:normal}
+.inset-panel{
+  /*background-color: rgba(0,0,0,.1);*/
+
+  padding: 1em 2em;
+  box-shadow: 0 0 .5em rgba(0,0,0,.1) inset ;
+  border-top:1px solid rgba(255,255,255,.3);
+  border-bottom:1px solid rgba(255,255,255,.3);
+  font-size: 14px;
+}
+.news-panel{
+  min-height:110px; 
+}
+.news-header{
+  display:inline-block;
+  float: left;
+  margin:0em 0 0;
+}
+.news-feed{
+  margin: 0;
+  margin-left: -2em;
+  margin-right: -2em;
+  padding: 0 0 0 1em;
+  list-style: none;
+  font: normal 1em/1.5em Verdana, Arial, Helvetica, sans-serif;
+  height: 100px;
+  overflow: hidden;
+  background: url(/news-feed-bg.png) 0 50% repeat scroll;
+}
+.news-item{
+  height:110px
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.news-item a{
+  display: block;
+}
+.news-item img{
+  float: left;
+  margin: 11px 1em 10px 0;
+}
+.news-item-header,
+.news-item-lead,
+.news-item-meta{
+  display: block;
+}
+.news-item-header{
+  padding-top: 11px;
+  font-weight:bold;
+}
+.news-item-meta{
+  font-size:.8em;
+  color: #665F51;
+}
+.news-item-lead{
+  color: #665F51;
+}
+.news-item a:hover .news-item-lead{
+  color: #005493;
+}
+.news-scroll{
+  position: absolute;
+  top:5em;
+  left:38px;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+}
+.news-panel:hover .news-scroll{
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.news-scroll .glyph.general:before{
+  margin-right:0;
+}
+.module-header{
+  font: bold 1.25em/1.5em Verdana, Arial, Helvetica, sans-serif;
+  color: #544f43;
+  margin: 0 0 .5em;
+  padding: 0;
+}
+a.button.subtle,
+a.button.subtle:link,
+a.button.subtle:visited,
+input.subtle[type="button"],
+input.subtle[type="submit"]{
+  border-radius: 3px 3px 3px 3px;
+  border: 1px solid #d7d4cd;
+  text-shadow: 0 1px 1px #FFFFFF;
+  background: none repeat scroll 0 0 rgba(255,255,255,.3);
+  box-shadow: 0 1px 0 #FFFFFF;
+  cursor: pointer;
+  font-size:100%;
+  font-weight:normal;
+  outline: 0 none;
+  padding: .6em;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: normal;
+  color:#3d71b7;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+}
+a.button.subtle:hover,
+a.button.subtle:focus,
+input.subtle[type="button"]:hover,
+input.subtle[type="button"]:focus,
+input.subtle[type="submit"]:hover,
+input.subtle[type="submit"]:focus,
+a.button.super.subtle:hover,
+a.button.super.subtle:focus,
+input.super.subtle[type="button"]:hover,
+input.super.subtle[type="button"]:focus,
+input.super.subtle[type="submit"]:hover,
+input.super.subtle[type="submit"]:focus{
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25), 0 0 4px #fff inset;
+  border: 1px solid #9b9382;
+  color: #004a9b;
+background: -moz-linear-gradient(top,  rgba(155,147,130,0.05) 0%, rgba(155,147,130,0.1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,147,130,0.05)), color-stop(100%,rgba(155,147,130,0.1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(155,147,130,0.05) 0%,rgba(155,147,130,0.1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(155,147,130,0.05) 0%,rgba(155,147,130,0.1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(155,147,130,0.05) 0%,rgba(155,147,130,0.1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(155,147,130,0.05) 0%,rgba(155,147,130,0.1) 100%); /* W3C */
+}
+a.button.subtle:active,
+a.button.super.subtle:active{
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: -moz-linear-gradient(top,  rgba(155,147,130,0.3) 0%, rgba(155,147,130,0.15) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(155,147,130,0.3)), color-stop(100%,rgba(155,147,130,0.15))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(155,147,130,0.3) 0%,rgba(155,147,130,0.15) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(155,147,130,0.3) 0%,rgba(155,147,130,0.15) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(155,147,130,0.3) 0%,rgba(155,147,130,0.15) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(155,147,130,0.3) 0%,rgba(155,147,130,0.15) 100%); /* W3C */
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25) inset, 0 1px 0 #FFFFFF;
+}
+.news-scroll{
+  position: absolute;
+  top:5em;
+  left:38px;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-out; 
+     -moz-transition: all 0.3s ease-out; 
+       -o-transition: all 0.3s ease-out; 
+          transition: all 0.3s ease-out;
+}
+.news-panel:hover .news-scroll{
+  -moz-opacity: 1;
+  opacity: 1;
+}
+.news-scroll .glyph.general:before{
+  margin-right:0;
+}
+.news-scroll .glyph.general::before {
+margin-right: 0;
+}
+
+.glyph.social::before, .glyph.general::before, .glyph.general.enclosed::before {
+content: " ";
+font-size: 100%;
+font-style: normal;
+margin-right: .25em;
+}
+
+.glyph.general, .glyph.general::before {
+font-family: "FoundationIconsGeneral";
+}
+.glyph {
+cursor: default;
+font-size: inherit;
+line-height: 1;
+}
+.glyph.general.arrow-down::before {
+content: "x";
+}
+	</style>
+	<body>
+					<div id="main_wrapper">
+							<div id="difs_main" class="clearfix">
+	<h3 class="element_hidden">
+Choose your language:
+</h3>
+<ul class="language clearfix">
+<li class="active"><a href="https://zhihui.com/?l=en" title="English"><span class="language_code">en</span><span class="language_name">English</span></a></li>
+<li><a href="https://zhihui.com/?l=zh" title="中文"><span class="language_code">中文
+</span><span class="language_name">中文</span></a></li>
+</ul>				<h1>
+					<a href="https://zhihui.com/">
+		<span class="domain_name">zhihui.com</span> under construction					</a>
+				</h1>
+	 <i class="fas fa-calculator"></i> 千万+<br>智慧 指挥 知会<br>
+  	<i class="fas fa-hand-holding-heart"></i> "Your domain can also signal how serious you are about your brand" ***<br><i class="fas fa-pen"></i> <strong>To contact the domain owner, complete this form:</strong><br><font size=1><div align="right">We respect your privacy very seriously</div></font>				<br>
+				<form id="dfs_form" action="https://zhihui.com/" method="post">
+					<fieldset>
+
+						<legend>
+		CONTACT OWNER						</legend>
+
+						<div class="row">
+
+							<div class="column name">
+								<label for="name">
+		Your name:								</label>
+								<input type="text" name="name" id="name" size="35" value="" role="textbox" />
+							</div>
+
+							<div class="column email">
+								<label for="email">
+		Email: <span class="asterisk">(Required)</span>								</label>
+								<input type="text" name="email" id="email" size="35" value="" role="textbox" aria-required="true" />
+							</div>
+
+						</div>
+
+						<div class="row">
+
+							<div class="column phone">
+								<label for="phone">
+		Phone:								</label>
+								<input type="text" name="phone" id="phone" size="35" value="" role="textbox" />
+							</div>
+
+							<div class="column price">
+										<label for="offer">
+			Your offer ** (USD $): <span class="asterisk">(Required)</span>								</label>
+								<input type="number" name="offer" id="offer" size="35" value="" role="textbox" aria-required="true" />
+										</div>
+
+						</div>
+
+								<div class="row comment">
+							<label for="comment">
+
+			Message (for details): <span class="asterisk">(Required)</span>							</label>
+							<textarea name="comment" id="comment" rows="3" cols="5"></textarea>
+						</div>
+									<div style="border:0 none !important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px);height:1px !important;margin:0 !important;overflow:hidden !important;padding:0 !important;position:absolute !important;width:1px !important;">							<label for="d33a18a15141088127288b7f47815389">
+			New offer for: <span class="asterisk">(Required)</span>							</label>
+							<input type="text" name="d33a18a15141088127288b7f47815389" id="d33a18a15141088127288b7f47815389" />
+						</div>
+			
+						<div class="row submit">
+							<input type="submit" name="submit" class="button" value="Submit" />
+							<input type="hidden" name="v20hr1aTAb" value="3v401bN0MD1cCVYahBr3F3mQ44HAUT" />
+							<sub>* Required fields;<br>** Just in case you have purchase interest.  If your offer is too low or not serious, we cannot guarantee a reply.  Some domains are reserved for own use, and not for sale;<br>*** Quoted from <a href="https://carrot.com/blog/carrot-dot-com-announcement/" target="_blank"> $600k carrot.com domain buyer <i class="fas fa-external-link-alt"></i></a>.</sub>
+						</div>
+
+					</fieldset>
+				</form>
+					</div>
+
+  <p>		      			<div id="difs_share" class="clearfix">
+   	<h3 class="widget-title"><span>FAQ：</span></h3>
+    <a href="#" class="togglefaq"><i class="fa fa-plus"></i>How much shall I offer?</a>
+          <div class="faqanswer">
+            <p>DNJournal is a great place to learn about the value of domain names: They publish <a href="http://dnjournal.com/domainsales.htm" target="_blank" rel="noopener">weekly <i class="fas fa-external-link-alt"></i></a> and <a href="http://dnjournal.com/ytd-sales-charts.htm" target="_blank" rel="noopener">yearly <i class="fas fa-external-link-alt"></i></a> sales charts. You can also look through <a href="http://dnjournal.com/archive/domainsales-archive.htm" target="_blank" rel="noopener">archives of previous years sales <i class="fas fa-external-link-alt"></i></a>.</p>
+            <p>We have helped 1,000+ customers secure their dream brands, from start-up teams to unicorn enterprises, and created one of domain sales records.</p>
+            <p>If your offer is too low or not serious, we cannot guarantee a reply.</p>
+            <p>Some domains are reserved for own use, and not for sale.</p>
+   </div>
+
+       <a href="#" class="togglefaq"><i class="fa fa-plus"></i> How safe are domain transactions?</a>
+          <div class="faqanswer">
+             <p>No need to worry about this:  We will use world-famous domain transfer service, and we are one of their long-term partners!
+</p>
+   </div>
+            <a href="#" class="togglefaq"><i class="fa fa-plus"></i> Why domain prices become higher?</a>
+          <div class="faqanswer">
+             <p>Why not?</p>
+   </div>
+      </div></p>
+						<div id="difs_share2" class="clearfix">
+ <div class="container cf">
+		<div class="row light-wrap cf ">
+      <div class="twelve columns border-top-bottom  cf">
+        <div class="inset-panel news-panel">
+          <ul class="news-feed">
+
+            <li class="news-item">
+              <a href="https://finance.sina.com.cn/roll/2019-04-26/doc-ihvhiewr8375120.shtml">  <img alt="" src="/mgj.png">
+                <span class="news-item-header">域名越短越国际？蘑菇街域名变为mogu.com</span>
+                <span class="news-item-lead">4月26日，蘑菇街（MOGU.US）网站公告，蘑菇街域名将于今日起，由mogujie.com更换为mogu.com。蘑菇街方面表示，此次将域名更换为mogu.com，是为了达成英文品牌的统一。“MOGU是蘑菇街的标准英文品牌名，将英文的域名、产品名、公司名、股票代码整体统一，将进一步提高蘑菇街品牌知名度，也将有助于提升蘑菇街在海外的品牌影响力。”蘑菇街副总裁范懿铭说。</span>
+                <span class="news-item-meta">4/27/2019</span>​
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="https://carrot.com/blog/carrot-dot-com-announcement/">  <img alt="" src="/carrot.png">
+                <span class="news-item-header">Our $600k Bet To Acquire Carrot.com And Go All In On Our Mission</span>
+                <span class="news-item-lead">Um, yes… you read that right. That’s no typo. $600,000 for a domain name. Believe me, if you would have told me 3 years ago we’d be investing that much money into a domain I would have said you’re off your rocker. But today, I feel it’s one of the best investments we could have made to further our future and our mission to impact far more entrepreneurs.</span>
+                <span class="news-item-meta">4/27/2019</span>​
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div><!-- /twelve columns -->
+    </div><!-- /row -->
+	</div>
+		</div>
+
+
+			<div id="difs_share" class="clearfix">
+           	<h3 class="widget-title"><span>Disclaimer 声明：</span></h3>
+           	<p>This domain zhihui.com is under construction / upgrading, and it is a generic, multiple-meaning, non-commercial and personally domain, which is not connected or affiliated with any company, organization or trademark.  The web page is being used by its domain owner solely for domain name resolution and spam-filtered & protected inbound communications, as well as preparation for the future project. It does not offer/sell any commodities or services.  Furthermore, you get no express nor implied statement that the domain zhihui.com is for sale.</p><p>If you think your arrival is unexpected, please recheck or use search engines.</p>
+           	<p>此开发/升级中域名zhihui.com为通用且多重含义词汇，并为非商业性、独立的个人所有，与任何公司、组织、商标无关。本页面仅为域名持有人用于域名解析和从外界通讯中拦截、过滤垃圾信息之用，并为其未来项目做准备，这里从不提供/售卖任何商品或服务，您也没有得到关于域名zhihui.com可以出售的任何明示或暗示。</p><p>如果您认为您不期而至，建议您重新核对或借助搜索引擎。</p>
+            <strong><font size=3></font></strong>
+            <p></p>
+      </div>
+      <p>     <div id="difs_share" class="clearfix">
+<center><i class="fas fa-ban"></i> Internal Use Only:&nbsp;&nbsp;[&nbsp;<a href="/domainadmin">Domain Admin</a>&nbsp;]&nbsp;&nbsp;[&nbsp;<a href="/preview">Preview</a>&nbsp;]&nbsp;&nbsp;[&nbsp;<a href="/webmail">Webmail</a>&nbsp;]</center>
+      </div></p>
+            <div id="difs_share" class="clearfix">
+     	      <div class="sliding-text-container">
+        <div class="big-text">
+        Domain is For Ever
+        </div>
+          <div class="small-text">
+            域名永续
+        </div>
+    </div>
+      <p>      <center><p><i class="fas fa-envelope"></i> support@domainstaff.com</p><strong><font size=3>Supported by <a href="https://www.domainstaff.com/english/" target="_blank">DomainStaff.com <i class="fas fa-external-link-alt"></i></a></font></strong>
+      	      	<hr>
+      <font size=1>Copyright © 2019 DomainStaff.com. All rights reserved. </font>
+      </center></p>
+      </div>
+
+		</div>
+<script>
+	function tick(){
+	    var TOP_NEWS = $('.news-feed li:first');
+	    
+	    $(TOP_NEWS).animate({ //.fadeTo(250, 0)
+	        marginTop: '-100px',
+	        opacity: 0
+	      },333, function() {
+	        $(TOP_NEWS).hide(0, function () {
+	          $(TOP_NEWS).appendTo($('.news-feed')).slideDown().animate({ 
+	            marginTop: '0',
+	            opacity: 1
+	          }, 0);
+	      });
+	    });	  
+	  }
+	  
+	  var NEWS_TIMER = setInterval( function(){tick()},3000);
+	  
+	
+</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script type="text/javascript" src="HPDFS/javascript/common.js.php"></script>
+	</body>
+</html>
+
+
+***Repl Closed***
