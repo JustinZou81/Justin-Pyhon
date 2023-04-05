@@ -1,0 +1,16 @@
+Are you looking for an easy-to-learn programming language to help with your scientific work? Look no further than Python. We'll introduce the basic concepts you need to know to get started with this straightforward programming language and show you how to use Python for everything from running algebraic calculations to generating graphical output from your data.
+
+Review of scientific computing
+Scientific computing involves using computers to solve scientific problems. Specifically, it's used to solve equations. Anything from single nonlinear equations (root finding) to systems of linear algebraic equations (numerical linear algebra) to solving systems of nonlinear partial differential equations (computational physics).
+
+Historically, numerical algorithms to solve these problems were programmed in languages such as C/C++ and Fortran — and they still are. So, where does Python fit in? Python is great for quickly implementing and testing new (or old) algorithms, and for marshalling multiple physics codes together, which is often done at top U.S. laboratories. Python is easy, fun to learn, and quite powerful. So what are you waiting for? Let's get started!
+
+Download Python
+Python is widely available on all computers running the Linux or macOS operating systems. You can even run Python on your iPad by using the Pythonista app. You can download a version for Windows from Python.org as well. But if you're going to do scientific computing — and even if you aren't — I recommend you download and install Anaconda. Anaconda gives you a full installation of Python and many of the great packages (or modules, as I refer to them) for scientific computing. It also offers easy access to the integrated development environment Spyder.
+
+Python at your service
+Once you have installed Anaconda, you can click the icon for the Anaconda Navigator and start having some fun. In the bottom right window, you see a command prompt. Simply point your mouse to the right of this prompt and start entering Python commands. If you take the traditional route to learning a new programming language, start by typing print("Hello World!"), then press Return.
+
+You can use the command prompt to enter one or multiple commands to test code snippets quickly or generate output for your work. When it comes to more than a few lines of code, it's best to generate and save a program file separately (more on that later).
+
+The other option, at least on Linux and macOS, is to open a terminal window and type Python at the command prompt. Doing so starts the Python command prompt, and you can start typing commands and running Python code. If instead you type idle in the terminal window, you get a new window featuring the Idle Python editor — convenient for writing new Python scripts and running them by using the powerful F5 command.
